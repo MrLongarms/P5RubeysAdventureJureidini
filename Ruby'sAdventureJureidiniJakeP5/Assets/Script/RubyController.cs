@@ -57,7 +57,7 @@ public class RubyController : MonoBehaviour
                isInvincible = false;
             }
         }
-        //if(Input.GetkeyDown(KeyCode.C))
+        if(Input.GetKeyDown(KeyCode.C))
         {
             Launch();
         }
